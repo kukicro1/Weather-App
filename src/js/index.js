@@ -1,5 +1,5 @@
-console.log("krunoooooo");
-let kruno = 2;
-kruno = "prva cura";
-console.log(kruno);
-console.log("aaaaaaa");
+import '../css/reset.css'
+import '../css/styles.css'
+import { domManipulator } from './DOM'
+
+domManipulator.getData()
